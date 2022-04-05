@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PontoFuncao", "http://localhost:54689", "{8B5D7257-9F8B-457C-AEF3-96480E741983}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54689"
+		Debug.AspNetCompiler.PhysicalPath = "E:\Sisclick\Producao\Fabrica\Versao\Sisclick.PontoFuncao\PontoFuncao\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54689\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54689"
+		Release.AspNetCompiler.PhysicalPath = "E:\Sisclick\Producao\Fabrica\Versao\Sisclick.PontoFuncao\PontoFuncao\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54689\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "E:\Sisclick\Producao\Fabrica\Versao\Sisclick.PontoFuncao\PontoFuncao\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework", "Framework\Framework.csproj", "{B2C78FF1-1FC9-490B-8D45-3978E95889A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Reflection", "Framework.Reflection\Framework.Reflection.csproj", "{0C54673D-2345-4E53-8090-CF5AD3B19AB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B5D7257-9F8B-457C-AEF3-96480E741983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5D7257-9F8B-457C-AEF3-96480E741983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B5D7257-9F8B-457C-AEF3-96480E741983}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5D7257-9F8B-457C-AEF3-96480E741983}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B2C78FF1-1FC9-490B-8D45-3978E95889A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C78FF1-1FC9-490B-8D45-3978E95889A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C78FF1-1FC9-490B-8D45-3978E95889A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C78FF1-1FC9-490B-8D45-3978E95889A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C54673D-2345-4E53-8090-CF5AD3B19AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C54673D-2345-4E53-8090-CF5AD3B19AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C54673D-2345-4E53-8090-CF5AD3B19AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C54673D-2345-4E53-8090-CF5AD3B19AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

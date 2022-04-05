@@ -1,0 +1,142 @@
+.igte_IGEditWithButtons
+{
+	background-color:White;
+	background-repeat:no-repeat;
+	background-position:0px -46px ;
+	background-image: url(images/igte_sprite.png);
+	font-size:10px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	border:solid 1px #C9C9C9;
+	height: 24px;
+	width: 130px;
+	outline: 0;
+}
+
+
+.igte_IGEdit
+{
+	background-color:White;
+	background-repeat:no-repeat;
+	background-position:0px -46px ;
+	background-image: url(images/igte_sprite.png);
+	font-size:12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	border:solid 1px #999999;
+	outline: 0;
+	color:#333333;
+}
+
+
+.igte_IGEditInContainer
+{
+	background-color:Transparent;
+	font-size:12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	border-width:0px;
+	outline: 0;
+	color:#333333;
+}
+
+
+.igte_IGTextArea
+{
+	background-color:White;
+	background-repeat:no-repeat;
+	background-position:0px -46px ;
+	background-image: url(images/igte_sprite.png);
+	font-size:12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	border:solid 1px #999999;
+	outline: 0;
+	resize: none;
+	color:#333333;
+}
+
+
+.igte_IGButtonSize
+{
+	width: 22px;
+	height: 22px;
+}
+
+
+.igte_IGButton
+{
+	background-color:#4F4F4F;
+	border-style:none;
+	line-height: normal;
+	cursor:pointer;
+	color:White;
+}
+
+
+.igte_IGInner
+{
+	border-width:0px;
+}
+
+
+.igte_IGButtonImg
+{
+}
+
+
+.igte_IGFocus
+{
+	background-color:White;
+	background-repeat:no-repeat;
+	background-position:0px -46px ;
+	background-image: url(images/igte_sprite.png);
+}
+
+
+.igte_IGButtonFocus
+{
+}
+
+
+.igte_IGInnerFocus
+{
+}
+
+
+.igte_IGButtonHover
+{
+	background-color:#2686AE;
+}
+
+
+.igte_IGNullText
+{
+	color:#999999;
+}
+
+
+.igte_IGHover
+{
+}
+
+
+.igte_IGInnerHover
+{
+}
+
+
+.igte_IGButtonPressed
+{
+	background-color:#3BB7EB;
+}
+
+
+.igte_IGButtonDisabled
+{
+	background-color:#A1A1A1;
+}
+
+
+.igte_IGEdit::-ms-clear, .igte_IGEditInContainer::-ms-clear
+{
+	display: none;
+}
+
+

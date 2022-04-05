@@ -1,0 +1,168 @@
+.igdt_RedPlanetControl {
+	background-color:transparent;
+	border:1px solid transparent;
+	color:#000000;
+	font-size: xx-small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.igdt_RedPlanetControlActive {
+}
+
+.igdt_RedPlanetNode
+{
+	cursor:hand;
+	color:#696969;
+	text-decoration:none;	
+	padding:1px 3px 1px 3px;
+	line-height:15px;
+	vertical-align: middle;
+}
+
+.igdt_RedPlanetNodeRoot {
+	font-weight:bold;
+	color:#000000;
+	vertical-align:middle;
+
+}
+
+.igdt_RedPlanetNodeImage {	
+	vertical-align: middle;
+}
+
+.igdt_RedPlanetNodeSelected {
+	background-color:#CC0000;
+	color:#ffffff;
+	}
+
+.igdt_RedPlanetNodeActive 
+{
+	border:solid 1px #000000;
+	padding: 0px 3px 0px 2px;
+}
+
+.igdt_RedPlanetNodeHover {
+	background-color:#D8D8D8;
+	
+}
+
+.igdt_RedPlanetNodeDisabled
+{
+	color:Gray;
+}
+
+.igdt_RedPlanetInternalNodeEditor
+{
+	border:1px solid #000000;
+	padding-left: 2px;
+}
+
+
+/* //////////////////// GROUP STYLES //////////////////// */
+.igdt_RedPlanetNodeGroup {
+	list-style :none;	
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.igdt_RedPlanetNodeHolder {
+	white-space:nowrap;
+	clear:left;
+}
+
+/* Bug #62259 K.D. December 27, 2010 removing float: left because it was causing the nodes to display diagonally */
+.igdt_RedPlanetNodeHolder img
+{
+	vertical-align: middle;
+}
+
+/* M.H. 8 June 2011 - fix bug 32892: add alignment for table */
+.igdt_RedPlanetNodeHolder table {
+	vertical-align: bottom;
+	*vertical-align: middle;
+}
+
+/* //////////////////// GROUP STYLES //////////////////// */
+
+
+/****************************************************/
+/* Added for WebDataTree Drag And Drop funtionality */
+/****************************************************/
+
+
+/*CSS class that will define the style applied before or after some node. 
+If the space between the nodes is accepted as potential drop target this class will define 
+some separator/dashed line that will show where the new node will be placed*/
+/*The DropIndicator purpose is to guide the user where the node will be inserted 
+when they drop it*/
+.igdt_RedPlanetDropIndicator
+{
+    border      : 1px solid #696969;
+    padding     : 1px 8px 3px 4px;
+    background  : #ED5E61 url(./images/igdt_DropIndicatorBg.jpg) repeat-x scroll 0 0 ;
+    
+    color       : #696969;
+    cursor      : default;
+    font-family : Segoe UI,Arial,Verdana,Helvetica,sans-serif;
+    font-size   : 12px;
+
+    height:20px;
+}
+
+.igdt_RedPlanetDropIndicator img
+{
+    position:relative;
+    top:3px;
+    margin-right:5px;
+    width:16px;
+    height:16px;
+}
+.igdt_RedPlanetDropIndicator span
+{
+    position:relative;
+    top:-1px;
+}
+
+/*CSS class that will be applied just before the Dropping event is fired on a node if it is a possible drop target. For example when you drag over concrete node its color will change to alert the user he will drop inside the highlighted node.*/
+.igdt_RedPlanetDropTarget
+{
+    background  : #fcb1b1;
+}
+
+/*Applied on the cloned node that is being dragged*/
+.igdt_RedPlanetDragMarkup
+{
+    cursor      : move;
+    padding:1px 3px;
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:xx-small;
+}
+
+/* Applied to the line shown, when inserting between two nodes.*/
+.igdt_RedPlanetDropInsertLine
+{
+  border: 2px dotted #7f0000;
+}
+
+.igdt_RedPlanetNodeGroupDragDrop {
+	list-style :none;	
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+.igdt_RedPlanetNodeGroupDragDrop li
+{
+    clear:left;
+}
+
+.igdt_RedPlanetNodeHolderDragDrop {
+	white-space:nowrap;
+}
+
+.igdt_RedPlanetNodeHolderDragDrop img
+{
+    vertical-align:middle;
+    float:left;
+}

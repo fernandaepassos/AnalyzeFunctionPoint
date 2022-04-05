@@ -1,0 +1,230 @@
+﻿/*=============================================================================
+// Autor: Fernanda Passos Ferreira
+// Empresa: Sisclick Sistemas
+// Ano: 2014
+// Contato: fernanda@sisclick.com.br
+//=============================================================================
+*/
+
+.Texbox
+{
+    font-family:Arial;
+    font-size:11px;
+    color:#19496f;
+    border:1px solid #C9D7F1;
+}
+
+.TexboxObr
+{
+    font-family:Arial;
+    font-size:11px;
+    color:#19496f;
+    border:1px solid #C9D7F1;
+	border-left:3px;
+	border-left-style:solid;
+	border-left-color:Red; 
+}
+
+.DropDownListObr
+{
+    font-family:Arial;
+    font-size:11px;
+    color:#19496f;
+    border:1px solid #C9D7F1;
+	border-left:3px;
+	border-left-style:solid;
+	border-left-color:Red; 
+}
+
+.DropDownList
+{
+    font-family:Arial;
+    font-size:11px;
+    color:#19496f;
+    border:1px solid #C9D7F1;
+
+}
+
+.html,body
+{
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin:0px;
+    padding:0px;
+}
+
+.BoxListaPesquisa
+{
+    position:absolute;
+    top:40px;
+}
+
+.DivFiltroPesquisa
+{
+	position:relative;
+	top:12px;
+	width:100%;
+	z-index:99999;
+}
+
+.Mensagem
+{	font-family:Tahoma, Arial;
+	font-size:13px;
+	position:relative;
+	top:23px;
+	left:25%;
+	font-weight:bold;
+}
+
+.MensagemLista
+{	font-family:Tahoma, Arial;
+	font-size:13px;
+	position:relative;
+	top:51px;
+	left:25%;
+	font-weight:bold;
+}
+
+.ToolBoxLista
+{	position:fixed; 
+ 	width:100%;
+ 	height:52px;
+ 	background-color:#99bbe8;
+ 	z-index:10000;
+} 
+
+/* Filtro Modal */ 	 	
+ .ToolBoxModal
+{	position:absolute;
+ 	width:100%;
+ 	height:24px;
+ 	background-color:#99bbe8;
+ 	cursor:move;
+ 	z-index:10000;
+} 
+ 	
+.ModalFiltro
+{
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	height: 330px;
+	z-index:10000;
+}
+
+.PnlFiltro
+{
+	border: 2px #C9D7F1 solid;
+	background-color: #f3f3f3; 
+	width: 455px; 
+	height: 335px;
+	overflow:auto;
+	z-index:10000;	
+} 		
+
+.DivMensagem
+{
+	position:relative;
+	top:51px;
+	width:100%;
+	z-index:99999;
+}
+ 	
+ 	
+/* Inicio Filtro Topo */
+.LblFiltroTopo
+{
+	color:#FFFFFF;
+	font-family:Arial, Sans-Serif;
+    font-size:12px;
+}
+/* Fim Filtro Topo */ 	
+ 	
+ 	
+/* INICIO - Padronização do GridView */
+.DivListaGrid
+{
+	position: relative;
+	top: 51px;
+	width: 100%;
+	border-top:solid 1px #336699;
+	z-index:100;
+    overflow: auto;
+
+}
+
+.DivListaGrid th
+{
+	padding-left:8px;
+	padding-right:8px;
+}
+
+.DivListaGrid td
+{
+	padding-left:8px;
+	padding-right:8px;
+}
+
+.primeiroRegistro
+{
+	font-family:Arial, Sans-Serif;
+	font-size:12px;
+	background:#EDEDED;
+	text-align:left;
+	z-index:100;
+}
+
+.segundoRegistro
+{
+	font-family:Arial, Sans-Serif;
+	font-size:12px;
+	background:#FAFAFA;
+	text-align:left;
+	padding-left:5px;
+	padding-right:15px;
+	z-index:100;
+}
+
+.headerEstilo
+{
+	background-image:url("../Images/filGrid.jpg"); 
+	background-repeat:repeat-x;
+	font-family:Arial, Sans-Serif;
+	font-weight:bold;
+	font-size:12px;
+	/*color:#3a6ea5;*/
+    color:#f3f3f3;
+	text-align:left;
+	z-index:10;
+	padding-left:5px;
+	padding-right:15px;
+	z-index:100;
+}
+
+/*Cor da fonte do Header*/
+.headerEstilo a
+{
+    color:#f3f3f3;		
+	text-decoration:none;
+}				
+
+.paginacaoEstilo
+{
+	background-image:url("../Images/filGrid.jpg"); 
+	background-repeat:repeat-x;
+	font-family:Arial, Sans-Serif;
+	font-size:12px;
+	font-weight:bold;
+	color:White;
+	text-decoration:none;
+	text-align:left;
+	z-index:100;
+}
+
+.paginacaoEstilo a
+{
+	color:#3a6ea5;		
+	text-decoration:none;
+}				
+/* FIM - Padronização do GridView */ 	

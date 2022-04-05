@@ -1,0 +1,199 @@
+.igwv_RedPlanetControl
+{
+	border:solid 1px #333333;
+}
+
+
+.igwv_RedPlanetCaptionHeader
+{
+	background-color:#7d0000;
+	background-repeat:repeat-x;
+	background-image: url(images/header_large2.gif);
+	border-width: 0px;
+	font-weight:bold;
+	font-size:8pt;
+	line-height: 16pt;
+	color: #FFFFFF;
+	text-align:center;
+	vertical-align: middle;
+}
+
+
+.igwv_RedPlanetDayHeader
+{
+	background-color:#FFFFFF;
+	background-position:bottom ;
+	background-repeat: repeat-x;
+	background-image: url(images/gridbg.gif);
+	border: 0px;
+	border-top:solid 1px #999999;
+	border-bottom:solid 1px #999999;
+	color:#333333;
+	font-size: 8pt;
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+.igwv_RedPlanetDay
+{
+	background-color:White;
+	border-width: 0px;
+	cursor: pointer;
+	color:Black;
+}
+
+
+.igwv_RedPlanetAppointment
+{
+	background-color:White;
+	font-size:8pt;
+	border:solid 1px #999999;
+	margin: 1px;
+	padding: 3px;
+	cursor: pointer;
+	color: #333333;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.igwv_RedPlanetPearFadedAppointment
+{
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+.igwv_RedPlanetAllDayEvent
+{
+	background-color:#EFEFEF;
+	background-repeat: repeat-x;
+	font-size:8pt;
+	border: solid 1px #aaaaaa;
+	padding: 3px;
+	margin: 1px;
+	white-space: nowrap;
+	overflow: hidden;
+	color:#333333;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+
+.igwv_RedPlanetNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	vertical-align:middle;
+}
+
+
+.igwv_RedPlanetDayArea
+{
+	border-width: 0;
+	border-right:solid 1px #999999;
+	border-left:solid 1px #999999;
+}
+
+
+.igwv_RedPlanetTodayHeader
+{
+	background-color: #7d0000;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/header_large2.gif);
+	color:White;
+}
+
+
+.igwv_RedPlanetToday
+{
+}
+
+
+.igwv_RedPlanetSelectedAppointment
+{
+	border:1px solid #990000;
+	background-color:#EFEFEF;
+	background-repeat: repeat-x;
+	font-size:8pt;
+	margin: 1px;
+	padding: 3px;
+	cursor: pointer;
+	color: #333333;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+.igwv_RedPlanetActiveDayHeader
+{
+	background-color: #080808;
+	background-repeat: repeat-x;
+	background-position: top;
+	background-image: url(images/gridSelected.gif);
+	color:White;
+}
+
+
+.igwv_RedPlanetActiveDay
+{
+}
+
+
+.igwv_RedPlanetResourceButton
+{
+	background-color:#7d0000;
+	background-repeat:repeat-x;
+	background-image: url(images/header_hover3.gif);
+	padding: 3px;
+	color: #333333;
+	border-width: 0;
+	border-right: solid 1px #999999;
+	border-bottom: solid 1px #999999;
+	font-size: 8pt;
+}
+
+.igwv_RedPlanetResourceButton:focus, .igwv_RedPlanetResourceButtonActive
+{
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+.igwv_RedPlanetResourceButton:hover
+{
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+.igwv_RedPlanetMultiDayEventArrowLeft
+{
+      background-image: url(images/igws_arrowLeft.gif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+}
+
+.igwv_RedPlanetMultiDayEventArrowRight
+{
+      background-image: url(images/igws_arrowRight.gif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+}

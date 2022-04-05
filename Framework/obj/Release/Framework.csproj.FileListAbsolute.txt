@@ -1,0 +1,8 @@
+E:\Projetos\PontoDeFuncao\Fonte\Framework\bin\Release\Framework.dll
+E:\Projetos\PontoDeFuncao\Fonte\Framework\bin\Release\Framework.pdb
+E:\Projetos\PontoDeFuncao\Fonte\Framework\bin\Release\Database.dll
+E:\Projetos\PontoDeFuncao\Fonte\Framework\bin\Release\Framework.Reflection.dll
+E:\Projetos\PontoDeFuncao\Fonte\Framework\bin\Release\Uol.PagSeguro.dll
+E:\Projetos\PontoDeFuncao\Fonte\Framework\bin\Release\Framework.Reflection.pdb
+E:\Projetos\PontoDeFuncao\Fonte\Framework\obj\Release\Framework.dll
+E:\Projetos\PontoDeFuncao\Fonte\Framework\obj\Release\Framework.pdb

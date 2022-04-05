@@ -1,0 +1,1070 @@
+/**************************** VERTICAL (Default / No suffixes) *************************************************/
+.igdm_RedPlanetControlVertical
+{
+	background-color:#EEEEEE;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_controlbackground.png);
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	border-style:none;
+	border-width:0px;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor:default;
+}
+
+
+/*
+ Main Control CSS class when it's active 
+*/
+.igdm_RedPlanetControlVerticalActive
+{
+}
+
+
+/*
+ Main Control CSS class when it's disabled
+*/
+.igdm_RedPlanetControlVerticalDisabled
+{
+	background-color:#EEEEEE;
+}
+
+
+/******************************** ROOT ELEMENTS ***************************************************/
+.igdm_RedPlanetMenuGroupVerticalRoot
+{
+	background-color:Transparent;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalRoot
+{
+	font-size:10px;
+	border:solid 1px Transparent;
+	padding:6px 30px 6px 12px;
+	_border: 0px;
+	color:#333333;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalIcon
+{
+	border-style:none;
+	border-width:0px;
+	padding-right:6px;
+	clear: none;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalRootLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	line-height: 12px;
+	display: block;
+	cursor:default;
+	color:#333333;
+	text-decoration:none;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalRootSelected
+{
+	background-color:#7D0000;
+	background-repeat:repeat-x;
+	background-position:left top ;
+	background-image: url(images/igdm_rootselected.png);
+	border:solid 1px #333333;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalRootActive
+{
+	background-color:#7D0000;
+	background-image:none;
+	border:solid 1px #333333;
+	_border: 0px;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalRootHover
+{
+	background-color:#BD1515;
+	background-repeat:repeat-x;
+	background-position:left top ;
+	background-image: url(images/igdm_roothover.png);
+	border:solid 1px #BD1515;
+	_border: 0px;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalRootDisabled
+{
+}
+
+
+/********************************** END ROOT ELEMENTS *********************************************/
+/****************************** MenuGroup (UL) ELEMENTS (SubMenu) *********************************/
+/* UL (List) */
+.igdm_RedPlanetMenuGroupVertical
+{
+	background-color:#FEFEFE;
+	border:solid 1px #CCCCCC;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+/**************************** END Menu Group Elemnts ********************************************/
+/************ MenuItem elements (single menu item - LI (base element) has > a > span) ***********/
+/* List Item (Li) */
+.igdm_RedPlanetMenuItemVertical
+{
+	background-attachment:scroll;
+	background-color: Transparent none repeat scroll 0 0;
+	background-repeat:repeat;
+	background-position:notset notset ;
+	border:solid 1px Transparent;
+	margin:0px;
+	padding:5px 30px 5px 5px;
+	_border: 0px;
+	color:#000333;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	line-height: 12px;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) that is a parent of a menu which will appear on the bottom */
+.igdm_RedPlanetMenuItemVerticalParent
+{
+}
+
+
+.igdm_RedPlanetMenuItemVerticalParentLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) */
+.igdm_RedPlanetMenuItemVerticalSelected
+{
+	background-color:#7D0000;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	font-weight:normal;
+	border:solid 1px #333333;
+	margin:0px;
+	_border: 0px;
+	color:White;
+}
+
+
+/* List Item (Li) */
+.igdm_RedPlanetMenuItemVerticalActive
+{
+	background-color:#7D0000;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	font-weight:normal;
+	border:solid 1px #333333;
+	margin:0px;
+	_border: 0px;
+	color:White;
+}
+
+
+/* List Item (Li) */
+.igdm_RedPlanetMenuItemVerticalHover
+{
+	background-color:#7D0000;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	font-weight:normal;
+	border:solid 1px Transparent;
+	margin:0px;
+	_border: 0px;
+	color:White;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalDisabled
+{
+}
+
+
+/* List Item (LI) no inner content */
+.igdm_RedPlanetMenuItemVerticalSeparator
+{
+	background-color:#CCCCCC;
+	border-style:none;
+	border-width:0px;
+	margin-top:0px;
+	padding:0px;
+	display: block;
+	height: 1px;
+	height: 1px;
+	width: 100%;
+	margin: 0px auto;
+	position: absolute;
+	clear: both;
+}
+
+
+.igdm_RedPlanetMenuScrollContainerVertical
+{
+	background-color:#FEFEFE;
+	border:solid 1px #CCCCCC;
+	color:Black;
+}
+
+
+.igdm_RedPlanetMenuScrollerRootTop
+{
+}
+
+
+.igdm_RedPlanetMenuScrollerRootBottom
+{
+}
+
+
+.igdm_RedPlanetMenuScrollerTop
+{
+	height: 10px;
+	width: 100%;
+}
+
+
+.igdm_RedPlanetMenuScrollerBottom
+{
+	height: 10px;
+	width: 100%;
+}
+
+
+/************************************************************************************************\
+
+********************** Horizontal / Suffixed with "Horizontal" *********************************
+
+\************************************************************************************************/
+.igdm_RedPlanetControlHorizontal
+{
+	background-color:#EEEEEE;
+	background-repeat:repeat-x;
+	background-position:left top ;
+	background-image: url(images/igdm_controlbackground.png);
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	border-style:none;
+	border-width:0px;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor:default;
+}
+
+
+.igdm_RedPlanetControlHorizontalActive
+{
+}
+
+
+/*
+ Main Control CSS class when it's disabled
+*/
+.igdm_RedPlanetControlHorizontalDisabled
+{
+	background-color:#EEEEEE;
+}
+
+
+/************** End Main Control Definitions ********************/
+/******************************** ROOT ELEMENTS - Group and Item ***************************************/
+/** Definitions for Root elements should be always before definitions of subElements **/
+.igdm_RedPlanetMenuGroupHorizontalRoot
+{
+	background-color:Transparent;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalRoot
+{
+	font-size:10px;
+	border:solid 1px Transparent;
+	padding:6px 6px 6px 12px;
+	float: left;
+	_border: 0px;
+	color:#000FFF;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalIcon
+{
+	border-style:none;
+	border-width:0px;
+	padding-right:6px;
+	clear: none;
+	float: left;
+	text-align:left;
+	vertical-align:middle;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalRootLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#333333;
+	text-decoration:none;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalRootSelected
+{
+	background-color:#7D0000;
+	background-repeat:repeat-x;
+	background-position:left top ;
+	background-image: url(images/igdm_rootselected.png);
+	border:solid 1px #333333;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalRootActive
+{
+	background-color:#7D0000;
+	background-image:none;
+	border:solid 1px #333333;
+	_border: 0px;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalRootHover
+{
+	background-color:#BD1515;
+	background-repeat:repeat-x;
+	background-position:left top ;
+	background-image: url(images/igdm_roothover.png);
+	border:solid 1px #BD1515;
+	_border: 0px;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalRootDisabled
+{
+	float: left;
+}
+
+
+/********************************** END ROOT ELEMENTS *********************************************/
+/****************************** MenuGroup (UL) ELEMENTS (SubMenu) *********************************/
+/* UL (List) */
+.igdm_RedPlanetMenuGroupHorizontal
+{
+	background-color:#FEFEFE;
+	border:solid 1px #CCCCCC;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+/**************************** END Menu Group Elemnts ********************************************/
+/************ MenuItem elements (single menu item - LI (base element) has > a > span) ***********/
+/* List Item (Li) */
+.igdm_RedPlanetMenuItemHorizontal
+{
+	background-attachment:scroll;
+	background-color: Transparent none repeat scroll 0 0;
+	background-repeat:repeat;
+	background-position:notset notset ;
+	border:solid 1px Transparent;
+	margin:0px;
+	padding:5px 30px 5px 5px;
+	_border: 0px;
+	color:#000333;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) that is a parent of a menu which will appear on the bottom */
+.igdm_RedPlanetMenuItemHorizontalParent
+{
+	font-weight:normal;
+	margin:0px;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalParentLink
+{
+	font-size:12px;
+	font-family: Verdana,Arial,Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica,Sans-serif;
+	display: block;
+	cursor:default;
+	color:#000333;
+	text-decoration:none;
+}
+
+
+/* List Item (Li) */
+.igdm_RedPlanetMenuItemHorizontalSelected
+{
+	background-color:#7D0000;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	font-weight:normal;
+	border:solid 1px #333333;
+	margin:0px;
+	color:White;
+}
+
+
+/* List Item (Li) */
+.igdm_RedPlanetMenuItemHorizontalActive
+{
+	background-color:#7D0000;
+	background-repeat:repeat-x;
+	background-position:top ;
+	background-image: url(images/igdm_itemhover.png);
+	font-weight:normal;
+	border:solid 1px #333333;
+	margin:0px;
+	color:White;
+}
+
+
+/* List Item (Li) */
+.igdm_RedPlanetMenuItemHorizontalHover
+{
+	background-color:#7D0000;
+	background-repeat:repeat-x;
+	background-position:left top ;
+	background-image: url(images/igdm_itemhover.png);
+	font-weight:normal;
+	border:solid 1px Transparent;
+	margin:0px;
+	_border: 0px;
+	color:White;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalDisabled
+{
+}
+
+
+/* List Item (LI) no inner content */
+.igdm_RedPlanetMenuItemHorizontalSeparator
+{
+	background-color:#CCCCCC;
+	border-style:none;
+	border-width:0px;
+	margin-top:0px;
+	padding:0px;
+	display: block;
+	width: 1px;
+	width: 1px;
+	height: 100%;
+	margin: 0px auto;
+}
+
+
+/* Scrolling container - DIV */
+.igdm_RedPlanetMenuScrollContainerHorizontal
+{
+	background-color:#FEFEFE;
+	border:solid 1px #CCCCCC;
+	color:Black;
+}
+
+
+/* Left scrolling element for root level items Horizontal orientation - DIV */
+.igdm_RedPlanetMenuScrollerRootLeft
+{
+}
+
+
+/* Right scrolling element for root level items Horizontal orientation - DIV */
+.igdm_RedPlanetMenuScrollerRootRight
+{
+}
+
+
+/* Left scrolling element for non-root level items Horizontal orientation - DIV */
+.igdm_RedPlanetMenuScrollerLeft
+{
+	background-repeat:repeat-y;
+	background-position:right -70px ;
+	border-left:solid 1px #660000;
+	width: 10px;
+	height: 28px;
+	display: block;
+}
+
+
+/* Right scrolling element for non-root level items Horizontal orientation - DIV */
+.igdm_RedPlanetMenuScrollerRight
+{
+	background-repeat:repeat-y;
+	background-position:right -70px ;
+	border-right:solid 1px #660000;
+	width: 10px;
+	height: 28px;
+	display: block;
+}
+
+
+/*************************************** SCROLLING ROLES ************************************/
+.igdm_RedPlanetMenuScrollButton
+{
+	background-color:#AC0000;
+	background-repeat:repeat-x;
+	background-position:center -57px ;
+	background-image: url(images/igwdm_scrollsprite.png);
+	border:solid 1px #660000;
+	margin:0px;
+	padding:0px;
+	position: absolute;
+	text-decoration:none;
+}
+
+
+.igdm_RedPlanetMenuScrollIcon
+{
+	background-repeat:no-repeat;
+	background-image: url(images/igwdm_scrollsprite.png);
+	margin:0px;
+	padding:0px;
+	display: block;
+	height: 10px;
+	cursor:pointer;
+}
+
+
+.igdm_RedPlanetMenuScrollIconTop
+{
+	background-position:center -1px ;
+	margin-left:-5px;
+	width: 10px;
+	position: relative;
+	left: 50%;
+}
+
+
+.igdm_RedPlanetMenuScrollIconBottom
+{
+	background-position:center -25px ;
+	margin-left:-5px;
+	width: 10px;
+	position: relative;
+	left: 50%;
+}
+
+
+.igdm_RedPlanetMenuScrollIconLeft
+{
+	background-position:-15px -15px ;
+	margin-top:-6px;
+	position: relative;
+	top: 50%;
+}
+
+
+.igdm_RedPlanetMenuScrollIconRight
+{
+	background-position:-30px -15px ;
+	margin-top:-6px;
+	position: relative;
+	top: 50%;
+}
+
+
+.igdm_RedPlanetMenuScrollContainer
+{
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+}
+
+
+.igdm_RedPlanetMenuScrollContainerRootVertical
+{
+}
+
+
+.igdm_RedPlanetMenuScrollContainerRootHorizontal
+{
+}
+
+
+.igdm_RedPlanetMenuGroupScrollingVertical
+{
+	background-color:#FEFEFE;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+.igdm_RedPlanetMenuGroupScrollingHorizontal
+{
+	background-color:#FEFEFE;
+	margin:0px;
+	padding-top:0px;
+	padding-left:0px;
+	list-style-type: none;
+	cursor:default;
+	color:Black;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalRootActive .igdm_RedPlanetMenuItemHorizontalRootLink
+{
+	_color: white;
+}
+
+
+.ie6 .igdm_RedPlanetMenuGroupScrollingVertical .igdm_RedPlanetMenuItemVerticalParent .igdm_RedPlanetMenuItemVerticalLink
+{
+	color: black };
+}
+
+
+.ie6 ul.igdm_RedPlanetMenuGroupVerticalRoot li.igdm_RedPlanetMenuItemVerticalParent.igdm_RedPlanetMenuItemVerticalRoot
+{
+	background-color: none;
+}
+
+
+/* List Item (Li) */
+.igdm_RedPlanetMenuItemVerticalDisabled > a
+{
+	color:#CCCCCC;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalRootDisabled > a
+{
+	color:#AAAAAA;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemHorizontalRoot
+{
+	border-width:0px;
+}
+
+
+/* �b��C�� ----------------------------------------- */
+.igdm_RedPlanetMenuItemHorizontalActive.igdm_RedPlanetMenuItemHorizontalParent
+{
+	background-repeat:repeat-x;
+	background-position:right center ;
+	border:solid 1px #333333;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemVerticalSeparator
+{
+	overflow: hidden;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemVerticalRoot.igdm_RedPlanetMenuItemVerticalParent.igdm_RedPlanetMenuItemVerticalRootSelected
+{
+	background-color: #7D0000!important;
+	background-position:left ;
+	background-image: url(images/igdm_rootselected.png)!important;
+	border-width:0px;
+	background-repeat: repeat-x!important;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalSelected > a
+{
+	color:White;
+}
+
+
+.igdm_RedPlanetMenuScrollerRight hover, .igdm_RedPlanetMenuScrollerRight active
+{
+	background-position:left -70px ;
+}
+
+
+.igdm_RedPlanetMenuScrollerTop hover, .igdm_RedPlanetMenuScrollerRight active
+{
+	background-position:center -42px ;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemHorizontalRootActive .igdm_RedPlanetMenuItemHorizontalRootLink
+{
+	color:White;
+}
+
+
+.ie6 .igdm_RedPlanetMenuGroupScrollingVertical .igdm_RedPlanetMenuItemVerticalParent
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:right center ;
+	background-image: url(images/igwdm_submenuindicator.gif);
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalRootDisabled > a
+{
+	color:#AAAAAA;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemVertical.igdm_RedPlanetMenuItemVerticalParent
+{
+	border-width:0px;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemHorizontalSeparator
+{
+	overflow: hidden;
+}
+
+
+/* �b��C�� ----------------------------------------- */
+.igdm_RedPlanetMenuItemHorizontalHover.igdm_RedPlanetMenuItemHorizontalParent
+{
+	background-repeat:repeat-x;
+	background-position:top right ;
+	border:solid 1px Transparent;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalRootHover > a
+{
+	color:White;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemVerticalActive
+{
+	border-width:0px;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalRootActive > a
+{
+	color:White;
+}
+
+
+.igdm_RedPlanetMenuItemVertical.igdm_RedPlanetMenuItemVerticalParent
+{
+	background-repeat:no-repeat;
+	background-position:right center ;
+	background-image: url(images/igwdm_submenuindicator.gif);
+	_border: 0px;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemVerticalRootHover .igdm_RedPlanetMenuItemVerticalRootLink
+{
+	color:White;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalActive.igdm_RedPlanetMenuItemVerticalParent
+{
+	background-color:#7D0000;
+	background-repeat:repeat-x;
+	background-position:right center ;
+	background-image: url(images/igdm_itemhoverparent.png);
+	border:solid 1px #333333;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontal.igdm_RedPlanetMenuItemHorizontalParent
+{
+	background-repeat:no-repeat;
+	background-position:right center ;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemVertical
+{
+	border-width:0px;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalActive > a
+{
+	color:White;
+}
+
+
+.igdm_RedPlanetMenuScrollerLeft hover, .igdm_RedPlanetMenuScrollerRight active
+{
+	background-position:left -70px ;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalRootSelected .igdm_RedPlanetMenuItemHorizontalRootLink
+{
+	_color: white;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalHover > a
+{
+	color:White;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalRootHover .igdm_RedPlanetMenuItemVerticalRootLink
+{
+	_color: white;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemVerticalHover
+{
+	border-width:0px;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemVerticalRootSelected
+{
+	border-width:0px;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemHorizontal
+{
+	border-width:0px;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalActive > a
+{
+	color:White;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemHorizontalRootHover .igdm_RedPlanetMenuItemHorizontalRootLink
+{
+	color:White;
+}
+
+
+ul.igdm_RedPlanetMenuGroupVerticalRoot li.igdm_RedPlanetMenuItemVerticalParent.igdm_RedPlanetMenuItemVerticalRoot
+{
+	_background: none;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemVerticalRoot
+{
+	border-width:0px;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemVerticalRoot.igdm_RedPlanetMenuItemVerticalRootActive .igdm_RedPlanetmenuitemverticalrootlink, .ie6 .igdm_RedPlanetMenuItemVerticalRoot.igdm_RedPlanetMenuItemVerticalRootSelected .igdm_RedPlanetMenuItemVerticalRootLink
+{
+	color:White;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalRootHover > a
+{
+	color:White;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemVerticalActive .igdm_RedPlanetMenuItemVerticalLink
+{
+	color:White;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalHover > a
+{
+	color:White;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemHorizontalRootSelected
+{
+	border-width:0px;
+}
+
+
+/* �b��C�� ----------------------------------------- */
+.igdm_RedPlanetMenuItemHorizontalSelected.igdm_RedPlanetMenuItemHorizontalParent
+{
+	background-repeat:repeat-x;
+	background-position:right center ;
+	border:solid 1px #333333;
+}
+
+
+/* List Item (Li) */
+.igdm_RedPlanetMenuItemHorizontalDisabled > a
+{
+	color:#CCCCCC;
+}
+
+
+/*************************************** END SCROLLING ROLES ********************************/
+/***************
+*   IE6 Fixes  *
+****************/
+.ie6 .igdm_RedPlanetMenuItemVerticalRoot.igdm_RedPlanetMenuItemVerticalParent.igdm_RedPlanetMenuItemVerticalRootHover
+{
+	background-color: #BD1515!important;
+	background-position:left ;
+	background-image: url(images/igdm_roothover.png)!important;
+	border-width:0px;
+	background-repeat: repeat-x!important;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemVerticalHover.igdm_RedPlanetMenuItemVerticalParent
+{
+	border-width:0px;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemVerticalHover .igdm_RedPlanetMenuItemVerticalLink
+{
+	color:White;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalHover.igdm_RedPlanetMenuItemVerticalParent
+{
+	background-color:#7D0000;
+	background-repeat:repeat-x;
+	background-position:right center ;
+	background-image: url(images/igdm_itemhoverparent.png);
+	border:solid 1px Transparent;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalRootHover .igdm_RedPlanetMenuItemHorizontalRootLink
+{
+	_color: white;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalRoot.igdm_RedPlanetMenuItemVerticalRootActive .igdm_RedPlanetmenuitemverticalrootlink, .igdm_RedPlanetMenuItemVerticalRoot.igdm_RedPlanetMenuItemVerticalRootSelected .igdm_RedPlanetMenuItemVerticalRootLink
+{
+	_color: white;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalSelected.igdm_RedPlanetMenuItemVerticalParent
+{
+	background-color:#7D0000;
+	background-repeat:repeat-x;
+	background-position:right center ;
+	background-image: url(images/igdm_itemhoverparent.png);
+	border:solid 1px #333333;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalRootSelected > a
+{
+	color:White;
+}
+
+
+.igdm_RedPlanetMenuItemVerticalRootActive > a
+{
+	color:White;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemVerticalRootHover
+{
+	border-width:0px;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalSelected > a
+{
+	color:White;
+}
+
+
+.igdm_RedPlanetMenuScrollerBottom hover, .igdm_RedPlanetMenuScrollerRight active
+{
+	background-position:center -42px ;
+}
+
+
+.ie6 .igdm_RedPlanetMenuItemHorizontalHover
+{
+	border-width:0px;
+}
+
+
+.igdm_RedPlanetMenuItemHorizontalRootSelected > a
+{
+	color:White;
+}
+
+

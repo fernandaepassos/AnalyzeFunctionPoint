@@ -1,0 +1,153 @@
+﻿/*=============================================================================
+// Autor: Fernanda Passos Ferreira
+// Empresa: Sisclick Sistemas
+// Ano: 2014
+// Contato: fernanda@sisclick.com.br
+//=============================================================================
+*/
+
+#DivProgresso 
+{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.fieldset 
+{
+    font-family:Arial;
+    font-size:11px;
+    color:#19496f;
+    font-weight:bold;
+    border-color:#19496f;
+}
+
+.Texbox
+{
+    font-family:Arial;
+    font-size:11px;
+    color:#19496f;
+    border:1px solid #C9D7F1;
+}
+
+.TexboxObr
+{
+    font-family:Arial;
+    font-size:11px;
+    color:#19496f;
+    border:1px solid #C9D7F1;
+	border-left:3px;
+	border-left-style:solid;
+	border-left-color:Red; 
+}
+
+.DropDownListObr
+{
+    font-family:Arial;
+    font-size:11px;
+    color:#19496f;
+    border:1px solid #C9D7F1;
+	border-left:3px;
+	border-left-style:solid;
+	border-left-color:Red; 
+}
+
+.DropDownList
+{
+    font-family:Arial;
+    font-size:11px;
+    color:#19496f;
+    border:1px solid #C9D7F1;
+
+}
+
+.LabelTitulo 
+{
+    font-family:Arial;
+    font-size:11px;
+    font-weight:bold;
+    color:#19496f;
+}
+
+.LabelDescricao
+{
+    font-family:Arial;
+    font-size:11px;
+    color:#19496f;
+}
+
+.LabelDescricaoObr
+{
+    font-family:Arial;
+    font-size:11px;
+    color:#19496f;
+    border:1px solid #C9D7F1;
+	border-left:3px;
+	border-left-style:solid;
+	border-left-color:Red; 
+
+}
+
+.SubHeader
+{
+     border:none;
+     background-color:#87abc8;
+     text-align:center;
+     font-family:Arial;
+     height:20px;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+    /*color:#19496f;*/
+    color:white;
+}
+
+.Button 
+{
+    background-color:#1a4160;
+    text-align:center;
+    color:white;
+    border:double;
+    width:80px;
+    height:30px;
+}
+
+.PaginaHeader 
+{
+    /*border:solid 2px #1a4160;*/
+    border:none;
+    height:31px;
+    width:99.5%;
+    background:#fff;
+    text-align:center;
+    vertical-align:middle;
+    position:absolute;
+    top:5px;
+}
+
+.LinhaSubSotoes 
+{
+    border:solid 1px;
+    width:99%;
+    color:#1a4160;
+    top:40px;
+    position:absolute;
+}
+
+.BoxCampos 
+{
+    position:absolute;
+    top:100px;
+}
+
+.BoxMensagem 
+{
+    position:absolute;
+    top:45px;
+    left:1px;
+    width:95%;
+}

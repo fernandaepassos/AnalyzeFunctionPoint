@@ -1,0 +1,116 @@
+.igte_RedPlanetEditWithButtons
+{
+	font-size: 10px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FAFAFA;
+	line-height:1px;
+	height:20px;
+	width: 130px;
+	border:solid 1px #858585;
+}
+
+.igte_RedPlanetEdit::-ms-clear, .igte_RedPlanetEditInContainer::-ms-clear
+{
+	display: none;
+}
+
+.igte_RedPlanetEdit
+{
+	font-size: 12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FAFAFA;
+	border:solid 1px #858585;
+	outline:0;
+}
+
+.igte_RedPlanetTextArea
+{
+	font-size: 12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: #FAFAFA;
+	border:solid 1px #858585;
+	outline:0;
+	resize:none;
+}
+
+.igte_RedPlanetEditInContainer
+{
+	font-size: 12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	background-color: Transparent;
+	border-width:0px;
+	outline:0;
+}
+
+.igte_RedPlanetFocus
+{
+	background-image: none;
+	background-color: #FFFFFF;
+	border-color:#C10000;
+}
+
+.igte_RedPlanetHover
+{
+	border-color:#7D0000;
+}
+
+.igte_RedPlanetInner
+{
+}
+
+.igte_RedPlanetInnerFocus
+{
+}
+
+.igte_RedPlanetInnerHover
+{
+}
+
+.igte_RedPlanetButtonSize
+{
+	width:15px;
+	height:100%;
+}
+
+.igte_RedPlanetButton
+{
+	background-color: #7D0000;
+	background-image: url(images/igte_spinbuttonbg.gif);
+	background-repeat: repeat-x;
+	border:solid 1px #660000;
+	line-height:normal;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.igte_RedPlanetButtonFocus
+{
+}
+
+.igte_RedPlanetNullText
+{
+	color: #999999;
+}
+
+.igte_RedPlanetButtonHover
+{
+	background-image: url(images/igte_spinbuttonbghover.gif);
+}
+
+
+.igte_RedPlanetButtonPressed
+{
+	background-color: #C10000;
+	background-image: url(images/igte_spinbuttonbgpressed.gif);
+}
+
+
+.igte_RedPlanetButtonDisabled
+{
+	background-image: none;
+	background-color: #CCCCCC;
+}
+
+.igte_RedPlanetButtonImg
+{
+}

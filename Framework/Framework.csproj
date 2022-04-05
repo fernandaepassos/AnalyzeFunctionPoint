@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B2C78FF1-1FC9-490B-8D45-3978E95889A7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Framework</RootNamespace>
+    <AssemblyName>Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Database">
+      <HintPath>bin\Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Framework.Reflection">
+      <HintPath>..\Framework.Reflection\obj\Debug\Framework.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Uol.PagSeguro">
+      <HintPath>bin\Uol.PagSeguro.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Avaliacao\Acessorio.cs" />
+    <Compile Include="Avaliacao\Arquivo.cs" />
+    <Compile Include="Avaliacao\Avalia.cs" />
+    <Compile Include="Avaliacao\AvaliaAcessorio.cs" />
+    <Compile Include="Avaliacao\AvaliaClassificaItem.cs" />
+    <Compile Include="Avaliacao\AvaliaIndexador.cs" />
+    <Compile Include="Avaliacao\ClassGenericAvaliacao.cs" />
+    <Compile Include="Avaliacao\ClassificaItem.cs" />
+    <Compile Include="Avaliacao\Cliente.cs" />
+    <Compile Include="Avaliacao\Departamento.cs" />
+    <Compile Include="Avaliacao\Empresa.cs" />
+    <Compile Include="Avaliacao\Especie.cs" />
+    <Compile Include="Avaliacao\Estado.cs" />
+    <Compile Include="Avaliacao\Filial.cs" />
+    <Compile Include="Avaliacao\Funcionalidade.cs" />
+    <Compile Include="Avaliacao\Funcionario.cs" />
+    <Compile Include="Avaliacao\HorarioAcesso.cs" />
+    <Compile Include="Avaliacao\Indexador.cs" />
+    <Compile Include="Avaliacao\Marca.cs" />
+    <Compile Include="Avaliacao\Midia.cs" />
+    <Compile Include="Avaliacao\ParametroValor.cs" />
+    <Compile Include="Avaliacao\Parceiro.cs" />
+    <Compile Include="Avaliacao\Permissao.cs" />
+    <Compile Include="Avaliacao\Pessoa.cs" />
+    <Compile Include="Avaliacao\Prospect.cs" />
+    <Compile Include="Avaliacao\RealizadasConsultas.cs" />
+    <Compile Include="Avaliacao\Recepcao.cs" />
+    <Compile Include="Avaliacao\StatusTabela.cs" />
+    <Compile Include="Avaliacao\TipoTabela.cs" />
+    <Compile Include="Avaliacao\Usuario.cs" />
+    <Compile Include="Ecommerce\ClassGenericEcommerce.cs" />
+    <Compile Include="Ecommerce\ClassSQLEcommerce.cs" />
+    <Compile Include="Ecommerce\ClsEcomBanner.cs" />
+    <Compile Include="Ecommerce\ClsEcomCarrinho.cs" />
+    <Compile Include="Ecommerce\ClsEcomCarrinhoItem.cs" />
+    <Compile Include="Ecommerce\ClsEcomCategoria.cs" />
+    <Compile Include="Ecommerce\ClsEcomCorreios.cs" />
+    <Compile Include="Ecommerce\ClsEcomEstoqueExtrato.cs" />
+    <Compile Include="Ecommerce\ClsEcomFabricante.cs" />
+    <Compile Include="Ecommerce\ClsEcomFacilidade.cs" />
+    <Compile Include="Ecommerce\ClsEcomFornecedor.cs" />
+    <Compile Include="Ecommerce\ClsEcomMarca.cs" />
+    <Compile Include="Ecommerce\ClsEcomPedido.cs" />
+    <Compile Include="Ecommerce\ClsEcomProduto.cs" />
+    <Compile Include="Ecommerce\ClsEcomProdutoPromocao.cs" />
+    <Compile Include="Ecommerce\ClsEcomTabelaFrete.cs" />
+    <Compile Include="Ecommerce\ClsPagueSeguro.cs" />
+    <Compile Include="Ecommerce\ClsSigePessoa.cs" />
+    <Compile Include="Ecommerce\ClsSigeUsuario.cs" />
+    <Compile Include="PontoFuncao\Equipe.cs" />
+    <Compile Include="PontoFuncao\Pessoa.cs" />
+    <Compile Include="PontoFuncao\Projeto.cs" />
+    <Compile Include="PontoFuncao\ProjetoComplexidade.cs" />
+    <Compile Include="PontoFuncao\ProjetoFuncaoDados.cs" />
+    <Compile Include="PontoFuncao\ProjetoFuncaoTransacao.cs" />
+    <Compile Include="PontoFuncao\Usuario.cs" />
+    <Compile Include="PontoFuncao\ClassGenericPontoFuncao.cs" />
+    <Compile Include="PontoFuncao\Funcionario.cs" />
+    <Compile Include="PontoFuncao\EquipePessoa.cs" />
+    <Compile Include="PontoFuncao\ProjetoContagem.cs" />
+    <Compile Include="Projeto\ClsPrjCategoria.cs" />
+    <Compile Include="Projeto\ClsPrjComplexidade.cs" />
+    <Compile Include="Projeto\ClsPrjFase.cs" />
+    <Compile Include="Projeto\ClsPrjImpacto.cs" />
+    <Compile Include="Projeto\ClsPrjPrioridade.cs" />
+    <Compile Include="Projeto\ClsPrjProjeto.cs" />
+    <Compile Include="Projeto\ClsPrjTarefaAndamento.cs" />
+    <Compile Include="Projeto\ClsPrjTarefas.cs" />
+    <Compile Include="Projeto\ClsPrjUrgencia.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\ClsRelatorio.cs" />
+    <Compile Include="Report\ClsRelatorioFiltro.cs" />
+    <Compile Include="Report\ClsRelatorioFiltroItem.cs" />
+    <Compile Include="Robo\ClassGenericRobo.cs" />
+    <Compile Include="Robo\ClsAgenda.cs" />
+    <Compile Include="Robo\ClsHistorico.cs" />
+    <Compile Include="Robo\ClsTarefa.cs" />
+    <Compile Include="Robo\ClsUsuario.cs" />
+    <Compile Include="Seguranca\ClsCRIPTOGRAFIA.cs" />
+    <Compile Include="Seguranca\ClsFUNCIONALIDADE.cs" />
+    <Compile Include="Seguranca\ClsFUNCUSUARIO.cs" />
+    <Compile Include="Seguranca\ClsLOG.cs" />
+    <Compile Include="Seguranca\ClsPERMISSAO.cs" />
+    <Compile Include="Seguranca\ClsREDE.cs" />
+    <Compile Include="Seguranca\ClsUSUARIO.cs" />
+    <Compile Include="Servicedesk\ClassGenericServicedesk.cs" />
+    <Compile Include="Servicedesk\ClassSQLServicedesk.cs" />
+    <Compile Include="Servicedesk\ClsSdskChamado.cs" />
+    <Compile Include="Sige\ClassGenericSige.cs" />
+    <Compile Include="Sige\ClsSigeArquivo.cs" />
+    <Compile Include="Sige\ClsSigeArquivoVinculo.cs" />
+    <Compile Include="Sige\ClsSigeAvaliacao.cs" />
+    <Compile Include="Sige\ClsSigeBaseConhecimento.cs" />
+    <Compile Include="Sige\ClsSigeBugs.cs" />
+    <Compile Include="Sige\ClsSigeCidade.cs" />
+    <Compile Include="Sige\ClsSigeCliente.cs" />
+    <Compile Include="Sige\ClsSigeContato.cs" />
+    <Compile Include="Sige\ClsSigeDocumento.cs" />
+    <Compile Include="Sige\ClsSigeEmpresa.cs" />
+    <Compile Include="Sige\ClsSigeEndereco.cs" />
+    <Compile Include="Sige\ClsSigeFaq.cs" />
+    <Compile Include="Sige\ClsSigeFuncionario.cs" />
+    <Compile Include="Sige\ClsSigeLogAuditoria.cs" />
+    <Compile Include="Sige\ClsSigeOrcamento.cs" />
+    <Compile Include="Sige\ClsSigeOrcamentoItem.cs" />
+    <Compile Include="Sige\ClsSigePais.cs" />
+    <Compile Include="Sige\ClsSigeParametro.cs" />
+    <Compile Include="Sige\ClsSigeParametroValor.cs" />
+    <Compile Include="Sige\ClsSigePerfil.cs" />
+    <Compile Include="Sige\ClsSigePerfilFuncionalidade.cs" />
+    <Compile Include="Sige\ClsSigePessoa.cs" />
+    <Compile Include="Sige\ClsSigePessoaHistoricoContato.cs" />
+    <Compile Include="Sige\ClsSigeProspect.cs" />
+    <Compile Include="Sige\ClsSigeSistema.cs" />
+    <Compile Include="Sige\ClsSigeSistemaEmpresa.cs" />
+    <Compile Include="Sige\ClsSigeSistemaFuncionalidade.cs" />
+    <Compile Include="Sige\ClsSigeSistemaLicenca.cs" />
+    <Compile Include="Sige\ClsSigeSistemaPadraoHora.cs" />
+    <Compile Include="Sige\ClsSigeStatus.cs" />
+    <Compile Include="Sige\ClsSigeStatusTabela.cs" />
+    <Compile Include="Sige\ClsSigeTipo.cs" />
+    <Compile Include="Sige\ClsSigeTipoTabela.cs" />
+    <Compile Include="Sige\ClsSigeUf.cs" />
+    <Compile Include="Sige\ClsSigeUsuario.cs" />
+    <Compile Include="Sige\ClsSigeUsuarioHrAcesso.cs" />
+    <Compile Include="Util\ClassGenericUtil.cs" />
+    <Compile Include="Util\ClsEmail.cs" />
+    <Compile Include="Util\ClsUtil.cs" />
+    <Compile Include="Util\Cls_HTML.cs" />
+    <Compile Include="Util\Cls_WebDropDown.cs" />
+    <Compile Include="Util\Excel.cs" />
+    <Compile Include="Util\LogAuditoria.cs" />
+    <Compile Include="Vistoria\ClsVistCombustivel.cs" />
+    <Compile Include="Vistoria\ClsVistEspecie.cs" />
+    <Compile Include="Vistoria\ClsVistMarca.cs" />
+    <Compile Include="Vistoria\ClsVistModelo.cs" />
+    <Compile Include="Vistoria\ClsVistOrdemServico.cs" />
+    <Compile Include="Vistoria\ClsVistResposta.cs" />
+    <Compile Include="Vistoria\ClsVistRespostaItem.cs" />
+    <Compile Include="Vistoria\ClsVistVeiculo.cs" />
+    <Compile Include="Vistoria\ClsVistVeiculoCategoria.cs" />
+    <Compile Include="Vistoria\ClsVistVeiculoCombustivel.cs" />
+    <Compile Include="Vistoria\ClsVistVeiculoRespostas.cs" />
+    <Compile Include="Vistoria\ClsVistVeiculoTracao.cs" />
+    <Compile Include="Vistoria\ClsVistVistoria.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

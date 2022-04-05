@@ -1,0 +1,248 @@
+.igdv_RedPlanetControl
+{
+	border:solid 1px #333333;
+}
+
+
+.igdv_RedPlanetCaptionHeader
+{
+	background-color:#7d0000;
+	background-repeat:repeat-x;
+	background-image: url(images/header_large2.gif);
+	border-bottom: 1px solid #333333;
+	font-weight:bold;
+	font-size:8pt;
+	line-height: 16pt;
+	color: #FFFFFF;
+	text-align:center;
+	vertical-align: middle;
+}
+
+
+.igdv_RedPlanetDayHeader
+{
+	background-color:#EFEFEF;
+	background-repeat: repeat-x;
+	font-size:8pt;
+	border-bottom:solid 1px #999999;
+	padding: 2px;
+	height: 20px;
+	color: #000000;
+	text-align:center;
+	vertical-align:middle;
+	overflow: hidden;
+}
+
+
+.igdv_RedPlanetNonWorkingTimeSlot
+{
+	background-color:#F0F0F0;
+	border-bottom:solid 1px #CCCCCC;
+	height: 20px;
+}
+
+
+.igdv_RedPlanetWorkingTimeSlot
+{
+	background-color:White;
+	border-bottom:solid 1px #CCCCCC;
+	height: 20px;
+}
+
+
+.igdv_RedPlanetAllDayEventArea
+{
+	background-color:#FAFAFA;
+	border-bottom: 1px solid #999999;
+}
+
+
+.igdv_RedPlanetAllDayEvent
+{
+	background-color:#EFEFEF;
+	background-repeat: repeat-x;
+	font-size:8pt;
+	border: solid 1px #aaaaaa;
+	padding: 5px;
+	white-space: nowrap;
+	overflow: hidden;
+	color:#333333;
+	text-align:center;
+}
+
+
+.igdv_RedPlanetAppointment
+{
+	background-color:White;
+	font-size:8pt;
+	border:solid 1px #999999;
+	overflow: hidden;
+}
+
+
+.igdv_RedPlanetActivityEdge
+{
+	font-size:1px;
+	height: 4px;
+	cursor:n-resize;
+}
+
+
+.igdv_RedPlanetActivityEdgeLeft
+{
+	font-size:2px;
+	width: 6px;
+	cursor:move;
+}
+
+
+.igdv_RedPlanetTodayHeader
+{
+	background-color:#7d0000;
+	background-repeat:repeat-x;
+	background-image: url(images/header_large2.gif);
+	border-bottom: 1px solid #333333;
+	font-weight:bold;
+	font-size:8pt;
+	line-height: 16px;
+	height: 20px;
+	color: #FFFFFF;
+	text-align:center;
+	vertical-align: middle;
+}
+
+
+.igdv_RedPlanetTimeSlotLabel
+{
+	background-color:#FCFCFC;
+	background-repeat:repeat-x;
+	font-size:16pt;
+	border-right:solid 1px #999999;
+	border-bottom:solid 1px #999999;
+	width: 60px;
+	color: #333333;
+	text-align:center;
+	vertical-align:middle;
+}
+
+
+.igdv_RedPlanetTimeSlotLabelMinutes
+{
+	font-size:8pt;
+}
+
+
+.igdv_RedPlanetAllDayEventSelected
+{
+	border-color:#990000;
+}
+
+
+.igdv_RedPlanetAllDayEventAreaSelected
+{
+	background-color:White;
+}
+
+
+.igdv_RedPlanetActivityHover
+{
+	z-index: 10000;
+}
+
+
+.igdv_RedPlanetActivityEdgeBusy
+{
+	background-color:#990000;
+}
+
+
+.igdv_RedPlanetActivityEdgeTentative
+{
+	background-color:#990000;
+}
+
+
+.igdv_RedPlanetActivityEdgeOutofOffice
+{
+	background-color:#990000;
+}
+
+
+.igdv_RedPlanetActivityEdgeFree
+{
+	background-color:#990000;
+}
+
+
+.igdv_RedPlanetNavigationButton
+{
+	background-color:Transparent;
+	border-width:0px;
+	width: 20px;
+	vertical-align:middle;
+	cursor: hand;
+	cursor: pointer;
+}
+
+
+.igdv_RedPlanetSelectedAppointment
+{
+	z-index: 9999;
+}
+
+.igdv_RedPlanetPearFadedAppointment
+{
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+.igdv_RedPlanetResourceButton
+{
+	background-color:#7d0000;
+	background-repeat:repeat-x;
+	background-image: url(images/header_hover3.gif);
+	padding: 3px;
+	color: #333333;
+	border-width: 0;
+	border-right: solid 1px #999999;
+	border-bottom: solid 1px #999999;
+	font-size: 8pt;
+}
+
+.igdv_RedPlanetResourceButton:focus, .igdv_RedPlanetResourceButtonActive
+{
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+.igdv_RedPlanetResourceButton:hover
+{
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+.igdv_RedPlanetMultiDayEventArrowLeft
+{
+      background-image: url(images/igws_arrowLeft.gif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+}
+
+.igdv_RedPlanetMultiDayEventArrowRight
+{
+      background-image: url(images/igws_arrowRight.gif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+}

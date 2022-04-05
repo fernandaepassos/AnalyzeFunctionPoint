@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <ss:Styles>
+  <ss:Style ss:ID="Default" ss:Name="Normal">
+   <ss:Alignment ss:Vertical="Bottom"/>
+   <ss:Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <ss:Interior/>
+   <ss:NumberFormat/>
+   <ss:Protection/>
+  </ss:Style>
+  <ss:Style ss:ID="s62">
+   <ss:Borders>
+   <ss:Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+   <ss:Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+   <ss:Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+   <ss:Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+   </ss:Borders>
+   <ss:Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </ss:Style>
+  <ss:Style ss:ID="s63">
+   <ss:NumberFormat ss:Format="Short Date"/>
+  </ss:Style>
+  <ss:Style ss:ID="s60">
+   <ss:Alignment ss:Vertical="Bottom"/>
+   <ss:Borders>
+   <ss:Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+   <ss:Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" />
+   <ss:Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+   <ss:Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+   </ss:Borders>
+  </ss:Style>
+ </ss:Styles>
+<Worksheet ss:Name="Result"><Table><Row><Cell ss:StyleID="s62"><Data ss:Type="String">IdParametroValor</Data></Cell><Cell ss:StyleID="s62"><Data ss:Type="String">IdParametro</Data></Cell><Cell ss:StyleID="s62"><Data ss:Type="String">IdFilial</Data></Cell><Cell ss:StyleID="s62"><Data ss:Type="String">Nome</Data></Cell><Cell ss:StyleID="s62"><Data ss:Type="String">Descricao</Data></Cell><Cell ss:StyleID="s62"><Data ss:Type="String">Valor</Data></Cell><Cell ss:StyleID="s62"><Data ss:Type="String">DescUltimoUsuario</Data></Cell><Cell ss:StyleID="s62"><Data ss:Type="String">UltimaAtualizacao</Data></Cell></Row><Row><Cell ss:StyleID="s60"><Data ss:Type="Number">1</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="Number">5</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="Number">2</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Questionário</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Indica se o questionário deverá ou não ser respondido durante a avaliação.</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Não</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">master</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">10/11/2014 09:36:01</Data></Cell></Row><Row><Cell ss:StyleID="s60"><Data ss:Type="Number">2</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="Number">6</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="Number">2</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Campos do questionário obrigatório</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Indica se o questionário dever ter os campos obrigatórios respondidos ou não. </Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Sim</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">master</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">31/10/2014 13:31:44</Data></Cell></Row><Row><Cell ss:StyleID="s60"><Data ss:Type="Number">3</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="Number">7</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="Number">2</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Endereço cliente (Vendedor)</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Indica se os dados de endereço do cliente deverá ou não ser preenchido.</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Não</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">master</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">24/11/2014 14:28:35</Data></Cell></Row><Row><Cell ss:StyleID="s60"><Data ss:Type="Number">4</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="Number">8</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="Number">2</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Campos endereço cliente obrigatório</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Indica se os campos obrigatórios do cliente deverá ou não ser preenchido. </Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Não</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">master</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">25/11/2014 10:39:35</Data></Cell></Row><Row><Cell ss:StyleID="s60"><Data ss:Type="Number">5</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="Number">9</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="Number">2</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Aval Sugerido (%)</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Indica o número em percentual que irá como aval sugerio para o precista indicar.</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="Number">18</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">master</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">30/10/2014 12:25:55</Data></Cell></Row><Row><Cell ss:StyleID="s60"><Data ss:Type="Number">11</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="Number">10</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="Number">2</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Quantidade Fotos</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">Indica a quantidade de fotos que pode ser inserida por imagem</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="Number">5</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">master</Data></Cell><Cell ss:StyleID="s60"><Data ss:Type="String">24/11/2014 17:42:47</Data></Cell></Row></Table></Worksheet></Workbook>

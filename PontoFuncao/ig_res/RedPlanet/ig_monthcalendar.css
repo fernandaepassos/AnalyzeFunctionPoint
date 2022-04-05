@@ -1,0 +1,207 @@
+.igmc_RedPlanetControl
+{
+	background-color: #FFFFFF;
+	border:1px solid #858585;
+	width: 225px;
+	height: 200px;
+	padding: 0px;
+	margin: 0px;
+	font-family: Segoe UI, Verdana, Arial, Georgia, Sans-Serif;
+}
+
+.igmc_RedPlanetDOW
+{
+	background-color: #EEEEEE;
+	background-repeat: repeat-x;
+	background-position: top;
+	background-image: url(images/igmc_dowbg.gif);
+	font-size:0.8em;
+	border-width: 0px;
+	border-bottom:solid 1px #CCCCCC;
+	padding: 0px ;
+	text-align:center;
+	font-weight: bold;
+    height: 35px;
+}
+
+.igmc_RedPlanetNextPrev
+{
+	margin: 0px;
+	font-size:0.8em;
+	color: #FFFFFF;
+	padding: 0px 8px;
+}
+
+.igmc_RedPlanetHoverNextPrev
+{
+	cursor: pointer;
+	color: #000;
+}
+
+.igmc_RedPlanetPressedNextPrev
+{
+}
+
+.igmc_RedPlanetFooter
+{
+	background-color: #EEEEEE;
+	background-image: url(images/igmc_footerbg.gif);
+	background-repeat:repeat-x;
+	border-top: 1px solid #D8D8D8;
+	font-size:0.8em;
+	text-align:center;
+	height: 35px;
+}
+
+.igmc_RedPlanetHoverFooter
+{
+	background-color: #EDEDED;
+	background-image: url(images/igmc_footerbghover.gif);
+	background-repeat:repeat-x;
+	cursor: pointer;
+}
+
+.igmc_RedPlanetPressedFooter
+{
+	background-color: #FFFFFF;
+	background-image: url(images/igmc_footerbgpressed.gif);
+	background-repeat:repeat-x;
+}
+
+.igmc_RedPlanetHeader
+{
+	background-color: #7D0000;
+	background-repeat:repeat-x;
+	background-position:top;
+	background-image: url(images/igmc_headerbg.png);
+	border-bottom: 1px solid #858585;
+	height: 50px;
+}
+
+.igmc_RedPlanetMonthYear
+{
+	font-size:1em;
+	font-weight:bold;
+	padding:0px 2px;
+	color: #FFFFFF;
+}
+
+.igmc_RedPlanetPressedMonthYear
+{
+	color: #000000;
+}
+
+.igmc_RedPlanetHoverMonthYear
+{
+	cursor: pointer;
+	color: #000000;
+}
+
+.igmc_RedPlanetDay
+{
+	background-color:#FFFFFF;
+	font-size:0.9em;
+	text-align:center;
+	border: 1px solid #FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_RedPlanetDay.igmc_RedPlanetOtherMonthDay
+{
+	background-image:none;
+	color: #a4a4a4;
+	font-size:0.9em;
+	font-weight:normal;
+}
+
+.igmc_RedPlanetWeekNumber
+{
+	border: 1px solid #DDDDDD;
+	background-color: #DDDDDD;
+	font-weight: bold;
+}
+
+.igmc_RedPlanetWeekendDay
+{
+	background-color:#f9f9f9;
+	border: 1px solid #f9f9f9;
+}
+
+.igmc_RedPlanetOtherMonthDay
+{
+	color:#AAAAAA;
+}
+
+.igmc_RedPlanetTodayDay, .igmc_RedPlanetTodayDay.igmc_RedPlanetSelectedDay
+{
+	background-color: #660000;
+	border: 1px solid #660000;
+	color: #FFFFFF;
+}
+
+.igmc_RedPlanetSelectedDay
+{
+	background-color: #ffe6e6;
+	font-weight:bold;
+	color: #696969;
+}
+
+.igmc_RedPlanetFocusDay, .igmc_RedPlanetOtherMonthDay.igmc_RedPlanetFocusDay
+
+{
+	background-color: #C10000;
+	color:#FFFFFF;
+	font-weight:bold;
+	border: 1px solid #660000;
+	
+}
+
+.igmc_RedPlanetHoverDay, .igmc_RedPlanetTodayDay.igmc_RedPlanetHoverDay, .igmc_RedPlanetOtherMonthDay.igmc_RedPlanetHoverDay
+{
+	background-color: #7D0000;
+	background-image: url(images/igmc_dayselected.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #660000;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+.igmc_RedPlanetDisabledDay
+{
+	color:#EEE;
+}
+
+/* CSS classes for Month and Year selection Popup in header */
+.igmc_RedPlanetList
+{
+	background-color: #fff;
+	border:1px solid #bbb;
+}
+
+.igmc_RedPlanetItem
+{
+	background-color:#fff;
+	border: 1px solid #fff;
+	font-size:1em;
+	text-align: center;
+}
+
+.igmc_RedPlanetSelectedItem
+{
+	background-color: #C10000;
+	color:#FFFFFF;
+	border: 1px solid #660000;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.igmc_RedPlanetHoverItem
+{
+    background-color: #7D0000;
+	background-image: url(images/igmc_dayselected.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #660000;
+	color:#FFFFFF;
+	font-weight: bold;
+	cursor: pointer;
+}

@@ -1,0 +1,261 @@
+.igeb_RedPlanetControl
+{
+	background-color:Transparent;
+	font-size:xx-small;
+	font-family: Segoe UI, Verdana, Helvetica, sans-serif;
+	border:solid 1px #7F0000;
+	border-top-width:0px;
+	overflow-x: hidden;
+	_overflow: hidden!important;
+	color:Black;
+}
+
+
+.igeb_RedPlanetGroup
+{
+	background-repeat:repeat-x;
+	background-image: url(images/igeb_GroupBg.png);
+	display: block;
+	height: 30px;
+	overflow: hidden;
+	line-height: 30px;
+	color:#FCD8D8;
+	vertical-align:middle;
+}
+
+
+.igeb_RedPlanetGroupSelected
+{
+	background-repeat:repeat-x;
+	background-position:0px -30px ;
+	background-image: url(images/igeb_GroupBg.png);
+	font-weight:bold;
+	color:White;
+}
+
+
+.igeb_RedPlanetGroupActive
+{
+	background-repeat:repeat-x;
+	background-position:0px -30px ;
+	background-image: url(images/igeb_GroupBg.png);
+	font-weight:bold;
+	color:White;
+}
+
+
+.igeb_RedPlanetGroupHover
+{
+	background-repeat:repeat-x;
+	background-position:0px -30px ;
+	background-image: url(images/igeb_GroupBg.png);
+	font-weight:bold;
+	color:White;
+}
+
+
+.igeb_RedPlanetItem
+{
+	background-color:White;
+	line-height: 22px;
+}
+
+
+.igeb_RedPlanetItemImage
+{
+	padding-top:5px;
+	padding-right:5px;
+	padding-left:0px;
+	vertical-align:middle;
+}
+
+
+.igeb_RedPlanetItemSelected
+{
+	background-color:#FCB1B1;
+	color:White;
+}
+
+
+.igeb_RedPlanetItemActive
+{
+	background-color:#FCB1B1;
+	color:White;
+}
+
+
+.igeb_RedPlanetItemHover
+{
+	background-color:#FCB1B1;
+}
+
+
+.igeb_RedPlanetItemDisabled
+{
+}
+
+
+.igeb_RedPlanetGroupContents
+{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:0px;
+	list-style: none;
+}
+
+
+.igeb_RedPlanetGroupLabel
+{
+	font-size:12px;
+	font-family: Segoe UI, Verdana, Sans-Serif;
+	margin-left:5px;
+	padding-left:5px;
+	text-decoration:none;
+}
+
+
+.igeb_RedPlanetGroupDisabled
+{
+	background-repeat:repeat-x;
+	background-position:0px -60px ;
+	background-image: url(images/igeb_GroupBg.png);
+	color:White;
+}
+
+
+.igeb_RedPlanetGroupExpanderImage
+{
+	margin-top:5px;
+	margin-right:5px;
+	float: right;
+}
+
+
+.igeb_RedPlanetItemLabel
+{
+	font-weight:normal;
+	font-size:12px;
+	font-family: Segoe UI, Verdana, Arial, Sans-Serif;
+	display: block;
+}
+
+
+.igeb_RedPlanetHolder
+{
+    clear:left;
+}
+
+
+.igeb_RedPlanetGroupLink
+{
+	margin-bottom:0px;
+	padding-bottom:0px;
+	padding-left:6px;
+	display: block;
+	color: inherit;
+	text-decoration:none;
+}
+
+
+.igeb_RedPlanetItemLink
+{
+	padding-top:2px;
+	padding-bottom:2px;
+	display: block;
+	color:#333333;
+	text-decoration:none;
+}
+
+
+.igeb_RedPlanetItemParent
+{
+	background-repeat:no-repeat;
+	background-image: url(images/igeb_Bullet.png);
+}
+
+
+/* IE 7 Disabled item fix */
+.igeb_RedPlanetItemDisabled a visited, .igeb_RedPlanetItemDisabled a
+{
+	color:Gray;
+}
+
+
+.igeb_RedPlanetItemContents
+{
+	margin-left:0px;
+	padding-left:0px;
+	list-style: none;
+}
+
+
+.igeb_RedPlanetGroupActive a visited
+{
+	color:White;
+}
+
+
+.igeb_RedPlanetGroupHover a visited
+{
+	color:White;
+}
+
+
+.igeb_RedPlanetGroup a visited
+{
+	color:#FCD8D8;
+}
+
+
+.igeb_RedPlanetItemHolder img
+{
+	vertical-align:middle;
+}
+
+
+.igeb_RedPlanetItemHolder
+{
+}
+
+
+.igeb_RedPlanetGroup a
+{
+	color:#FCD8D8;
+}
+
+
+.igeb_RedPlanetGroupActive a
+{
+	color:White;
+}
+
+
+.igeb_RedPlanetGroupSelected a
+{
+	color:White;
+}
+
+
+.igeb_RedPlanetGroupSelected a visited
+{
+	color:White;
+}
+
+
+/* IE 7 fix to icon bad alignment*/
+.igeb_RedPlanetItem ,.igeb_RedPlanetItemActive ,.igeb_RedPlanetItemSelected
+{
+	min-height: 30px!important;
+	_height: 30px;
+}
+
+
+.igeb_RedPlanetGroupHover a
+{
+	color:White;
+}
+
+

@@ -1,0 +1,110 @@
+﻿.igc_RedPlanetControl
+{
+	border:solid 1px #6B6B6B;
+	background-color:#ffffff;
+	padding:10px;
+	margin:0px;
+	font-family:Segoe UI,Verdana,Arial,Sans-Serif;
+    font-size:12px;
+}
+
+.igc_RedPlanetControlActive
+{
+	
+}
+
+.igc_RedPlanetCaptchaInput
+{
+    border:1px solid #6B6B6B;
+    display:block;
+    padding:5px 0;
+    
+    margin-bottom:10px;
+    /*IE6 and IE7 specific hack*/
+    *margin-bottom:0;
+    
+}
+
+.igc_RedPlanetRefreshAndAudioButtonsArea
+{
+    margin-left:10px;
+	border-width:0;
+	text-decoration:none;
+    display:block;
+}
+
+    .igc_RedPlanetRefreshAndAudioButtonsArea img
+    {
+	    border-width:0px;
+	    text-decoration:none;
+	    margin-bottom:3px;
+    }
+
+.igc_RedPlanetSubmitButton {
+    background:#9B0000 url(./images/igc_submitButtonBg.png) repeat-x top left;
+    border:1px solid #670000;
+    clear:left;
+    display:block;
+    height:30px;
+    width:177px;
+    cursor:pointer;
+    color:#ffffff;
+    margin-top:10px;
+    font-family:Segoe UI,Verdana,Arial,Sans-Serif;
+    font-size:12px;
+    font-weight:bold;
+    padding:0px;
+}
+
+.igc_RedPlanetErrorLabel
+{
+    background-color:#FF6666;
+    color:white;
+    padding:3px;
+}
+
+.igc_RedPlanetCaptchaImageLabel
+{
+	border:1px solid #6B6B6B;
+}
+
+.igc_RedPlanetCaptchaInputLabel{
+}
+
+.igc_RedPlanetCaptchaInfoTextLabel
+{
+    display:block;
+    margin:10px 0 5px 0;
+}
+
+.igc_RedPlanetCaptchaImage
+{
+    display:block;
+    margin-bottom:10px;
+}
+
+.igc_RedPlanetCaptchaImageArea
+{
+    display:block;
+    float:left;
+    padding:0;
+    margin:0;
+}
+    .igc_RedPlanetCaptchaImageArea label 
+    {
+        display:block
+    }
+	    
+.igc_RedPlanetRefreshAndAudioButtonsArea 
+{
+    float:left;
+}
+    .igc_RedPlanetRefreshAndAudioButtonsArea a 
+    {
+        display:block
+    }
+    .igc_RedPlanetRefreshAndAudioButtonsArea a,
+    .igc_RedPlanetRefreshAndAudioButtonsArea img 
+    {
+        cursor:pointer
+    }

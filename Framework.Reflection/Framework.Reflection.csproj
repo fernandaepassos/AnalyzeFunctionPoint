@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C54673D-2345-4E53-8090-CF5AD3B19AB8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Framework.Reflection</RootNamespace>
+    <AssemblyName>Framework.Reflection</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Framework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenSmtp">
+      <HintPath>bin\OpenSmtp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcessoBancoDados\AcessoBD.cs" />
+    <Compile Include="AcessoBancoDados\TransacaoBD.cs" />
+    <Compile Include="Generic\AcessoDBConfig.cs" />
+    <Compile Include="Generic\ClassGeneric.cs" />
+    <Compile Include="Generic\ClassSQLGeneric.cs" />
+    <Compile Include="Generic\eTipoComandoBuscaValor.cs" />
+    <Compile Include="Generic\Generic.cs" />
+    <Compile Include="Generic\InterfaceGeneric.cs" />
+    <Compile Include="Generic\ListGeneric.cs" />
+    <Compile Include="InsertUpdateDelete\AtributoAncestralTabelaPropria.cs" />
+    <Compile Include="InsertUpdateDelete\AtributoBancoDados.cs" />
+    <Compile Include="InsertUpdateDelete\ConexaoBDOracle.cs" />
+    <Compile Include="InsertUpdateDelete\ConexaoBDSqlServer.cs" />
+    <Compile Include="InsertUpdateDelete\DeleteOracle.cs" />
+    <Compile Include="InsertUpdateDelete\DeleteSqlServer.cs" />
+    <Compile Include="InsertUpdateDelete\InsertUpdateOracle.cs" />
+    <Compile Include="InsertUpdateDelete\InsertUpdateSqlServer.cs" />
+    <Compile Include="InsertUpdateDelete\ItensPersistenciaOracle.cs" />
+    <Compile Include="InsertUpdateDelete\ItensPersistenciaSqlServer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RastrearExcecao\ToTrackException.cs" />
+    <Compile Include="Reflection\ControlesWeb.cs" />
+    <Compile Include="Reflection\InstanciaClassGeneric.cs" />
+    <Compile Include="Reflection\PaginaWeb.cs" />
+    <Compile Include="Rotinas\Rotina.cs" />
+    <Compile Include="Tool\Tools.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

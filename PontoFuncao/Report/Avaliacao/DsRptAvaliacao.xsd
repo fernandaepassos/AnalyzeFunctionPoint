@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsRptAvaliacao" targetNamespace="http://tempuri.org/DsRptAvaliacao.xsd" xmlns:mstns="http://tempuri.org/DsRptAvaliacao.xsd" xmlns="http://tempuri.org/DsRptAvaliacao.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="AutoDnaProdConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="AutoDnaProdConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.AutoDnaProdConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsRptAvaliacao" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdAvalia" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+              <xs:element name="IdFilial" type="xs:int" minOccurs="0" />
+              <xs:element name="DataCadastro" msdata:ReadOnly="true" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Placa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Modelo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AnoModelo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Km" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Orcamente" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Valor" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DescIndexador" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Filial" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Vendedor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IndexadorValor" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IdStatusAvaliacao" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdEntrou" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdNaoEntrou" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdEmAndamento" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdAguarRetorno" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdSemStatus" type="xs:int" minOccurs="0" />
+              <xs:element name="StatusNaoEntrou" type="xs:string" minOccurs="0" />
+              <xs:element name="IdStatusMotivoNaoEntrou" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdNE_Indefinido" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdNE_PrecoBaixo" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdNE_DesistiuNegocio" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdNE_ValorQuitacaoAlto" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdNE_NaoTeveOfertaPreco" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdNE_NaoAprovouaCadastro" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdNE_RepassouPorContaPropria" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdNE_ExpectativaForaDoMercado" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdNE_VeiculoIrregular" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdNE_DesistiuPorMotivosFamiliares" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdNE_AdiouACompra" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdNE_ComprouOutraMarca" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdNE_ComprouOutraRevenda" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdNE_ContatoImpossivel" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdNE_FaltaCapacidadeFinanceira" type="xs:int" minOccurs="0" />
+              <xs:element name="QtdNE_AguardandoEntradaModeloDesejado" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable2" />
+      <xs:field xpath="mstns:IdAvalia" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

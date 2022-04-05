@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master.master.cs" Inherits="Master" %>
+
+<%@ Register Assembly="Infragistics35.WebUI.Misc.v12.2, Version=12.2.20122.2147, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" Namespace="Infragistics.WebUI.Misc" TagPrefix="igmisc" %>
+<%@ Register Assembly="Infragistics35.Web.v12.2, Version=12.2.20122.2147, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" Namespace="Infragistics.Web.UI.LayoutControls" TagPrefix="ig" %>
+<%@ Register Assembly="Infragistics35.Web.v12.2, Version=12.2.20122.2147, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" Namespace="Infragistics.Web.UI.NavigationControls" TagPrefix="ig" %>
+<%@ Register Assembly="Infragistics35.Web.v12.2, Version=12.2.20122.2147, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" Namespace="Infragistics.Web.UI" TagPrefix="ig" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Projeto</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" title="style1" />
+    <link rel="stylesheet" type="text/css" href="css/PadraoLista.css" title="style1" />
+    <link rel="icon" href="images/favicon.png">
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <asp:Panel ID="pnlPrincipal" runat="server" Height="100%" Width="100%">
+            <asp:UpdatePanel ID="upPnlPrincipal" runat="server">
+                <ContentTemplate>
+                    <div id="container">
+                        <div id="logo" class="logomarca">
+                            <a href="#" target="_blank">
+                                <asp:Image ImageUrl="images/logo.png" Width="250" Height="70" runat="server" ID="imgLogo" />
+                            </a>
+                        </div>
+                        <div style="position: fixed; left: 120px; top: 110px;"></div>
+                        <div id="DivSejaBemVindo">
+                            <asp:Label runat="server" ID="lblSejaBemVindo"></asp:Label>
+                        </div>
+                        <div id="DivSairDoSistema">
+                            <asp:HyperLink runat="server" ID="hplSairSistema" NavigateUrl="~/Login.aspx">
+                                <asp:ImageButton runat="server" ImageUrl="~/images/exitsystem.png" Width="30" ToolTip="Sair do sistema." Height="30" ID="imgSair" OnClick="imgSair_Click" />
+                            </asp:HyperLink>
+                        </div>
+                        <div id="DivBloco" style="position: absolute; border: none; width: 960px; height: 100%; top: 139px;">
+                            <ig:WebSplitter ID="WebSplitter1" runat="server" Height="99%" Width="99%" BorderStyle="Solid" StyleSetName="ElectricBlue">
+                                <Panes>
+                                    <ig:SplitterPane runat="server" BorderColor="#6DB7E8" Size="190px" CollapsedDirection="PreviousPane">
+                                        <Template>
+                                            <ig:WebExplorerBar ID="menu" runat="server" Width="250px" GroupContentsHeight="" Height="100%" StyleSetName="ElectricBlue" GroupExpandBehavior="AllExpanded" ItemIndent="1px">
+                                                <Groups>
+                                                    <ig:ExplorerBarGroup GroupContentsHeight="" Text="Cadastros" ToolTip="Cadastros diversos." ImageUrl="~/images/cadastro24.png">
+                                                        <Items>
+                                                            <ig:ExplorerBarItem Text="Projeto" ToolTip="Atualização de Projetos." ImageUrl="~/images/projeto.png" NavigateUrl="~/Forms/Projeto/LstProjeto.aspx" />
+                                                            <ig:ExplorerBarItem Text="Equipe" ToolTip="Atualização de Equipe." ImageUrl="~/images/equipe.png" NavigateUrl="~/Forms/Equipe/LstEquipe.aspx" />
+                                                            <ig:ExplorerBarItem Text="Funcionário" ToolTip="Atualização de Funcionário." ImageUrl="~/images/funcionario.png" NavigateUrl="~/Forms/Funcionario/LstFuncionario.aspx" />
+                                                        </Items>
+                                                    </ig:ExplorerBarGroup>
+                                                </Groups>
+                                            </ig:WebExplorerBar>
+                                        </Template>
+                                    </ig:SplitterPane>
+                                    <ig:SplitterPane runat="server" BorderColor="#6DB7E8" ScrollBars="Auto">
+                                        <Template>
+                                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                                        </Template>
+                                    </ig:SplitterPane>
+                                </Panes>
+                            </ig:WebSplitter>
+
+                        </div>
+
+                    </div>
+                </ContentTemplate>
+            </asp:UpdatePanel>
+            <ig:WebDialogWindow ID="dlgCadFaleConosco" StyleSetName="ElectricBlue" MaintainLocationOnScroll="False" runat="server" Height="200" Width="500px" InitialLocation="Centered" Modal="true" WindowState="Hidden">
+                <Resizer Enabled="True" />
+            </ig:WebDialogWindow>
+        </asp:Panel>
+    </form>
+    <div style="position: absolute; bottom: -165px; right: 15.5%; display: none">
+        <a href="http://www.sisclick.com.br" target="_blank" title="Desenvolvido por Sisclick">
+            <asp:Image ID="Image2" runat="server" ImageUrl="~/images/LogoSck.png" Width="150" Height="30" />
+        </a>
+    </div>
+
+</body>
+</html>
+
